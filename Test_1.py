@@ -1,5 +1,5 @@
 
-"""--------- TEST 1---------------------------------------------------------------------
+"""--------- TEST  ON PYTHON BASICS PROBLEM---------------------------------------------------------------------
 QQQ==Python programs to find uncommon words from two strings.
 a="geeks for geeks"
 b="learning from geeks for geeks"
