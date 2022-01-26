@@ -1,5 +1,5 @@
 """
-
+QQQ=WAP accesing nth element from tuple in list
 
 x=[(23,"rishi"),(24,"game")]
 for i in x:
