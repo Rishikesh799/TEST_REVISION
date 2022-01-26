@@ -14,7 +14,7 @@ for i ,j in x.items():
     d.append(c)
 print(sum(d))
 -------------------------------------------------------------------------------------------
-QQQ=WAP 
+QQQ=WAP to check if a string has at least one letter and one number 
 x="welcomeourcountry"
 d=[]
 e=[]
@@ -28,6 +28,7 @@ if len(d)>0 and len(e)>0:
 else:
     print("False")
 -----------------------------------------------------------------------------------------
+QQQ=WAP to find cumulative sum of list
 x=[10,20,30,40,50]
 d=[]
 c=0
