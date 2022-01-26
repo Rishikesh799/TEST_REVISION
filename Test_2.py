@@ -6,6 +6,7 @@ for i in x:
     print("The player name,",i[len(i)-1])
 
 -------------------------------------------------------------------------------------------
+QQQ=WAP to ind sum of all items in a dict.
 x={"1":3,"5":6,"9":3}
 d=[]
 for i ,j in x.items():
@@ -13,6 +14,7 @@ for i ,j in x.items():
     d.append(c)
 print(sum(d))
 -------------------------------------------------------------------------------------------
+QQQ=WAP 
 x="welcomeourcountry"
 d=[]
 e=[]
