@@ -19,3 +19,7 @@ def word(x):
 word('python')
 pyon
 ---------------------------------------------------------------------------------------------------------------------------
+## Convert given string in list of words.
+x="My name is hero."
+print([i for i in x.split()])
+['My', 'name', 'is', 'hero.']
