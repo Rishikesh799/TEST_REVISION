@@ -23,6 +23,7 @@ pyon
 x="My name is hero."
 print([i for i in x.split()])
 ['My', 'name', 'is', 'hero.']
+-------------------------------------------------------------------------------------------------------------
 ##WAP to find out the  most repeated word  in str.
 x="Both of this issue fixed by postponing the evalution of annotation.Insted of compiling code executes in annotation at their defination time."
 def most(x):
@@ -34,3 +35,4 @@ def most(x):
     print(sorted(p,key= lambda i:i[1],reverse=True)[0])
 most(x)
 ('of', 3)
+--------------------------------------------------------------------------------------
