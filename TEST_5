@@ -1,0 +1,9 @@
+## count no of chr present in string.(chr frquency)
+
+x="google.com"
+d={}
+for i in x:
+    d.update({i:x.count(i)})
+print(d)
+{'g': 2, 'o': 3, 'l': 1, 'e': 1, '.': 1, 'c': 1, 'm': 1}
+------------------------------------------------------------------------------------------------
