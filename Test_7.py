@@ -14,7 +14,7 @@ print(x)
 #WAP to convert the given list of tuples to a list of strings using map function.
 l=["RED","GREEN","BLACK","BLUE"]
 print(list(map(lambda x:list(x),l)))
-
+[['R', 'E', 'D'], ['G', 'R', 'E', 'E', 'N'], ['B', 'L', 'A', 'C', 'K'], ['B', 'L', 'U', 'E']]
 -------------------------------------------------------------------------
 l=["RED","GREEN","BLACK","BLUE"]
 d=[]
