@@ -9,7 +9,7 @@ l=["a","b","e","f","A","i","O","u","a"]
 y=set(l)
 x=list(map(lambda x:(x.upper(),x.lower()),y))
 print(x)
-
+[('O', 'o'), ('I', 'i'), ('B', 'b'), ('U', 'u'), ('A', 'a'), ('E', 'e'), ('F', 'f'), ('A', 'a')]
 ------------------------------------------------------------------------
 #WAP to convert the given list of tuples to a list of strings using map function.
 l=["RED","GREEN","BLACK","BLUE"]
