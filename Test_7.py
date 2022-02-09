@@ -10,4 +10,9 @@ y=set(l)
 x=list(map(lambda x:(x.upper(),x.lower()),y))
 print(x)
 
----------------------------------------------------------
+------------------------------------------------------------------------
+#WAP to convert the given list of tuples to a list of strings using map function.
+l=["RED","GREEN","BLACK","BLUE"]
+print(list(map(lambda x:list(x),l)))
+
+-------------------------------------------------------------------------
