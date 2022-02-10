@@ -8,3 +8,8 @@ x=[{"make":"nokia","model":216,"color":"black"},{"make":"mimax","model":2,"color
 print(sorted(x,key=lambda x:x["model"]))
 [{'make': 'mimax', 'model': 2, 'color': 'gold'}, {'make': 'samsung', 'model': 7, 'color': 'blue'}, {'make': 'nokia', 'model': 216, 'color': 'black'}]
 --------------------------------------------------------------------------------------------
+#wap to given list create square of each number and create new list.
+x=[1,2,3,4,5,6,7,8]
+print(list(map(lambda x:x**2,x)))
+[1, 4, 9, 16, 25, 36, 49, 64]
+------------------------------------------------------------------------------------------------
