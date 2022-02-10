@@ -19,3 +19,10 @@ y=[1,2,3,7,6,4]
 print(list(filter(lambda i:i in y,x)))
 [1, 2, 3, 6]
 -------------------------------------------------------------------
+#wap to count even no and  odd no in given array.
+x=[1,2,3,4,5,6,7,8,9]
+print("The count of even no is",len(list(filter(lambda x:x%2==0,x))))
+print("The count of odd no is",len(list(filter(lambda x:x%2!=0,x))))
+The count of even no is 4
+The count of odd no is 5
+------------------------------------------------------------------------------------
