@@ -23,3 +23,16 @@ if co==2:
 else:
     print(n,",number is not prime")
 ------------------------------------------------------------------------------------
+#Check whether no is pallidrome or not
+n=int(input("Enter the number:"))
+i=n
+s=0
+while i>0:
+    x=i%10
+    s=s*10+x
+    i=i//10
+if n==s:
+    print(n,"The number is pallidrome")
+else:
+    print(n,"The number is not pallidrome")
+----------------------------------------------------------------------------------
