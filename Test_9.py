@@ -36,3 +36,12 @@ if n==s:
 else:
     print(n,"The number is not pallidrome")
 ----------------------------------------------------------------------------------
+#WAP to find the sum of digit of given number.
+n=int(input("Enter the number:"))
+i=n
+s=0
+while i>0:
+    x=i%10
+    s=s+x
+    i=i//10
+print("Sum of given number is",s)
