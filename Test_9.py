@@ -12,3 +12,14 @@ if n == s:
 else:
     print(n,"not armstrong")
     ----------------------------------------------------------------------
+#To check given no is prime or not
+n=int(input("Enter the number:"))
+co=0
+for i in range(1,n+1):
+    if n%i==0:
+        co=co+1
+if co==2:
+    print(n,",The number is prime")
+else:
+    print(n,",number is not prime")
+------------------------------------------------------------------------------------
