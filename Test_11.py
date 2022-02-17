@@ -23,3 +23,13 @@ def stru(z):
     print("No of lower case letter is,",k)
 stru(s)
 ------------------------------------------------------------------------------
+#WAF that takes alist and return a new list with unique elements.
+def uni(x):
+    y=set(x)
+    print("Unique ist is ,",list(y))
+d=[]
+n=int(input("Enter how many no do you want in list"))
+for i in range(n):
+    m=int(input("Enter the number:"))
+    d.append(m)
+uni(d)
