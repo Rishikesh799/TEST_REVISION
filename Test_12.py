@@ -21,3 +21,12 @@ x=["G","F","G","I","S","E","S","T"]
 v=["*"]
 print(["*" if i!="G" else i for i in x])
 ---------------------------------------------------------------------------------------------
+##Python program to find the chr position of kth word from a list of strings.
+x=["geekforgeeks","is","best","for","geeks"]
+k=15
+d=[]
+for i in enumerate(x):
+    for j in enumerate(i[1]):
+        d.append(j[0])
+print(d[k])
+--------------------------------------------------------------------------
