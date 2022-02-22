@@ -30,3 +30,14 @@ for i in enumerate(x):
         d.append(j[0])
 print(d[k])
 --------------------------------------------------------------------------
+##Remove the words list of chr.
+x=["gfg","is","best","for","geeks"]
+y=["g","o"]
+k=[]
+for i in x:
+    for j in y:
+        if j in i:
+            break
+    else:
+        k.append(i)
+print(k)
