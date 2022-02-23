@@ -14,3 +14,8 @@ for i in y:
     d.append(x[i])
 print(d)
 --------------------------------------------------------------
+#Split string on vowels
+x="gfgabeast"
+import re
+print([ i for i in re.split("a|e|i|o|u",x) if len(i)!=0])
+---------------------------------------------------------------
