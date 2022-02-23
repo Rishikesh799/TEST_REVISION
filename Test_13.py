@@ -6,3 +6,11 @@ for i in x:
         d.append(i)
 print(list(set(d)))
 --------------------------------------------------------
+#Replace index elements with elements in other list.
+x=["gfg","is","best"]
+y=[0,1,2,1,0,0,0,2,1,1,2,0]
+d=[]
+for i in y:
+    d.append(x[i])
+print(d)
+--------------------------------------------------------------
